@@ -7,8 +7,6 @@ import emailjs from '@emailjs/browser';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 
-// REPLACE THESE WITH YOUR ACTUAL KEYS FROM EMAILJS
-// REPLACE THESE WITH YOUR ACTUAL KEYS FROM EMAILJS
 const SERVICE_ID = 'service_3uw96ty';
 const TEMPLATE_ID = 'template_zkbx94y';
 const PUBLIC_KEY = 'saYbKWFWHtzz84ryl';
