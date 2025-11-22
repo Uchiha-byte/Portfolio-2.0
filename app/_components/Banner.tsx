@@ -46,10 +46,10 @@ const Banner = () => {
                     </h1>
                     <p className="banner-description slide-up-and-fade mt-6 text-lg text-muted-foreground">
                         Hi! I&apos;m{' '}
-                        <span className="font-medium text-foreground">
-                            Ans
-                        </span>
-                        . Innovative Software Engineer and UX Designer with hands-on experience in Machine learning, automation, and full-stack development.
+                        <span className="font-medium text-foreground">Ans</span>
+                        . Innovative Software Engineer and UX Designer with
+                        hands-on experience in Machine learning, automation, and
+                        full-stack development.
                     </p>
                     <Button
                         as="link"
@@ -57,7 +57,7 @@ const Banner = () => {
                         variant="primary"
                         className="mt-9 banner-button slide-up-and-fade"
                     >
-                        Hire Me
+                        Contact Me
                     </Button>
                 </div>
 
