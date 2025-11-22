@@ -1,12 +1,11 @@
 'use client';
 import Button from '@/components/Button';
 import SectionTitle from '@/components/SectionTitle';
-import { Mail, Phone, User, Briefcase, FileText, Send } from 'lucide-react';
+import { Mail, Phone, User, Briefcase, FileText } from 'lucide-react';
 import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
-import { cn } from '@/lib/utils';
 
 // REPLACE THESE WITH YOUR ACTUAL KEYS FROM EMAILJS
 // REPLACE THESE WITH YOUR ACTUAL KEYS FROM EMAILJS
