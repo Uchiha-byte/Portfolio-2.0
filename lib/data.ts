@@ -325,3 +325,53 @@ export const MY_EXPERIENCE = [
         duration: 'Jan 2024 - July 2024',
     },
 ];
+export const MY_CERTIFICATES = [
+    {
+        title: 'Technical Support Fundamentals',
+        issuer: 'Google (Coursera)',
+        date: '10 Jan 2024',
+        credentialUrl: 'https://coursera.org/verify/9LJBY38YLKNS',
+        description: 'Successfully completed Google’s Technical Support Fundamentals course, covering IT support basics, troubleshooting, networking, operating systems, system administration, and customer service principles.',
+        image: '/certificates/cert-google-tech-support.png',
+    },
+    {
+        title: 'Certificate of Organising – Web Development 2.0 with WordPress',
+        issuer: 'NexGen Coders Club, Nawab Shah Alam Khan College of Engineering and Technology',
+        date: '11 Jan 2025',
+        credentialUrl: '#',
+        description: 'Recognized for organizing and actively contributing to the Web Development 2.0 with WordPress workshop, gaining practical experience in AI-powered web development and event coordination.',
+        image: '/certificates/cert-webdev-wordpress.png',
+    },
+    {
+        title: 'Certificate of Recognition – GenAI X GitHub',
+        issuer: 'NexGen Coders Club, Nawab Shah Alam Khan College of Engineering and Technology',
+        date: '21 Apr 2025',
+        credentialUrl: '#',
+        description: 'Recognized for valuable contribution as an organiser in “GenAI X GitHub”, a hands-on learning event focused on Generative AI and GitHub collaboration.',
+        image: '/certificates/cert-genai-github.png',
+    },
+    {
+        title: 'Certificate of Recognition – PyLeap: From Basics To Brilliance',
+        issuer: 'NexGen Coders Club, Nawab Shah Alam Khan College of Engineering and Technology',
+        date: '20 Sept 2025',
+        credentialUrl: '#',
+        description: 'Awarded for exceptional contributions as a member of the organizing team for “PyLeap: From Basics To Brilliance”, demonstrating leadership, teamwork, and event execution skills.',
+        image: '/certificates/cert-pyleap.png',
+    },
+    {
+        title: 'MumbaiHacks 2025 Participation Certificate',
+        issuer: 'Tech Entrepreneurs Association of Mumbai (TEAM) & Made in Mumbai',
+        date: '28–29 Nov 2025',
+        credentialUrl: '#',
+        description: 'Awarded for actively participating in MumbaiHacks 2025, the largest Agentic AI hackathon, collaborating in a high-intensity innovation environment focused on AI-driven solutions.',
+        image: '/certificates/cert-mumbaihacks.png',
+    },
+    {
+        title: 'Certificate of Recognition – Hands-On AI and Machine Learning Workshop',
+        issuer: 'NexGen Coders Club, Nawab Shah Alam Khan College of Engineering and Technology',
+        date: '20 Dec 2025',
+        credentialUrl: '#',
+        description: 'Recognized for outstanding performance and valuable contributions as a Core Member in the Hands-On AI and Machine Learning Workshop, showcasing active involvement in AI/ML concepts and implementation.',
+        image: '/certificates/cert-ai-ml-workshop.png',
+    },
+];
