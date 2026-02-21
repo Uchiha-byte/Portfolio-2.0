@@ -9,6 +9,7 @@ const COLORS = [
     'bg-yellow-500 text-black',
     'bg-blue-500 text-white',
     'bg-teal-500 text-black',
+    'bg-[#0047AB] text-white',
     'bg-indigo-500 text-white',
 ];
 
@@ -24,6 +25,10 @@ const MENU_LINKS = [
     {
         name: 'Experience',
         url: '/#my-experience',
+    },
+    {
+        name: 'Certificates',
+        url: '/#certificates',
     },
     {
         name: 'Projects',
