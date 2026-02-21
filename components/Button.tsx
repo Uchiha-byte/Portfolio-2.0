@@ -52,7 +52,7 @@ const Button = ({
     const variantClasses = {
         primary: `bg-primary text-primary-foreground  hover:bg-primary-hover`,
         secondary: `bg-secondary text-secondary-foreground hover:bg-secondary-hover`,
-        success: `bg-green-500 text-white hover:bg-green-600`,
+        success: `bg-[#0047AB] text-white hover:bg-[#0057CB]`,
         warning: `bg-orange-500 text-white hover:bg-orange-600`,
         danger: `bg-destructive text-destructive-foreground hover:bg-destructive/70`,
         info: `bg-blue-500 text-white hover:bg-blue-600`,
@@ -85,7 +85,7 @@ const Button = ({
                     href={props.href.toString() || '#'}
                 >
                     {variant !== 'link' && (
-                        <span className="absolute top-[200%] left-0 right-0 h-full bg-white rounded-[50%] group-hover:top-0 transition-all duration-500 scale-150"></span>
+                        <span className="absolute top-[200%] left-0 right-0 h-full bg-[#3380D4] rounded-[50%] group-hover:top-0 transition-all duration-500 scale-150"></span>
                     )}
                     <span className="z-[1]">
                         {loading ? <Child icon={icon} /> : children}
@@ -97,7 +97,7 @@ const Button = ({
         return (
             <Link className={buttonClasses} {...props} href={props.href || '#'}>
                 {variant !== 'link' && (
-                    <span className="absolute top-[200%] left-0 right-0 h-full bg-white rounded-[50%] group-hover:top-0 transition-all duration-500 scale-150"></span>
+                    <span className="absolute top-[200%] left-0 right-0 h-full bg-[#3380D4] rounded-[50%] group-hover:top-0 transition-all duration-500 scale-150"></span>
                 )}
                 <span className="z-[1]">
                     {loading ? <Child icon={icon} /> : children}
@@ -110,7 +110,7 @@ const Button = ({
         return (
             <button className={buttonClasses} {...props}>
                 {variant !== 'link' && (
-                    <span className="absolute top-[200%] left-0 right-0 h-full bg-white rounded-[50%] group-hover:top-0 transition-all duration-500 scale-150"></span>
+                    <span className="absolute top-[200%] left-0 right-0 h-full bg-[#3380D4] rounded-[50%] group-hover:top-0 transition-all duration-500 scale-150"></span>
                 )}
                 <span className="z-[1]">
                     {loading ? <Child icon={icon} /> : children}
