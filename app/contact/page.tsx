@@ -109,7 +109,7 @@ const ContactPage = () => {
             </div>
 
             <div className="contact-title opacity-0">
-                <SectionTitle title="Hire Me" />
+                <SectionTitle title="Contact Me" />
             </div>
 
             <div className="max-w-2xl mx-auto">
@@ -188,8 +188,7 @@ const ContactPage = () => {
                             htmlFor="reason"
                             className="text-sm font-medium text-foreground/80 flex items-center gap-2"
                         >
-                            <Briefcase size={16} className="text-primary" /> Why
-                            do you want to hire me?
+                            <Briefcase size={16} className="text-primary" /> What are you looking for?
                         </label>
                         <input
                             type="text"

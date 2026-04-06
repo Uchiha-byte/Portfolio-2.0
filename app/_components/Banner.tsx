@@ -51,14 +51,29 @@ const Banner = () => {
                         hands-on experience in Machine learning, automation, and
                         full-stack development.
                     </p>
-                    <Button
-                        as="link"
-                        href="/contact"
-                        variant="primary"
-                        className="mt-9 banner-button slide-up-and-fade"
-                    >
-                        Contact Me
-                    </Button>
+                    <div className="flex flex-wrap gap-4 mt-9 slide-up-and-fade banner-button">
+                        <Button
+                            as="link"
+                            href="/contact"
+                            variant="primary"
+                        >
+                            Contact Me
+                        </Button>
+                        <Button
+                            as="link"
+                            href="/start-project"
+                            variant="secondary"
+                        >
+                            Start a Project
+                        </Button>
+                        <Button
+                            as="link"
+                            href="/collaborate"
+                            variant="dark"
+                        >
+                            Collaborate with Me
+                        </Button>
+                    </div>
                 </div>
 
                 <div className="md:absolute bottom-[10%] right-[4%] flex md:flex-col gap-4 md:gap-8 text-center md:text-right">

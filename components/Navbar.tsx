@@ -11,6 +11,8 @@ const COLORS = [
     'bg-teal-500 text-black',
     'bg-[#0047AB] text-white',
     'bg-indigo-500 text-white',
+    'bg-purple-500 text-white',
+    'bg-emerald-500 text-white',
 ];
 
 const MENU_LINKS = [
@@ -33,6 +35,14 @@ const MENU_LINKS = [
     {
         name: 'Projects',
         url: '/#selected-projects',
+    },
+    {
+        name: 'Start a Project',
+        url: '/start-project',
+    },
+    {
+        name: 'Collaborate',
+        url: '/collaborate',
     },
 ];
 
