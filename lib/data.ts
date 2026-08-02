@@ -149,6 +149,54 @@ export const MY_STACK = {
 
 export const PROJECTS: IProject[] = [
     {
+        title: 'HireSense v2.0',
+        slug: 'hiresense-v2',
+        liveUrl: 'https://github.com/Uchiha-byte/HireSense_v2.0',
+        year: 2025,
+        description: `
+      AI-Powered Verification & Interview Engine for Authentic Hiring Decisions. <br/> <br/>
+      
+      Key Features:<br/>
+      <ul>
+        <li>🧬 Unified Candidate Story: Cross-validates digital profiles (CV, LinkedIn, GitHub, LeetCode) to uncover authentic candidate truth.</li>
+        <li>🎙️ Empathetic AI Interviews: Automated Zoom reference calls, tone & sentiment analysis, and bias-free candidate evaluations.</li>
+        <li>🎯 Certainty Score: AI-generated holistic credibility score combining verified data, code stats, and conversation metrics.</li>
+        <li>⚙️ Event-Driven Architecture: Built with FastAPI, Next.js 15, PostgreSQL (Supabase), Groq/Llama, ElevenLabs, and Zoom API.</li>
+      </ul><br/>
+      
+      Technical Highlights:
+      <ul>
+        <li>Engineered full-stack verification pipelines with real-time Supabase subscriptions & fail-safe polling.</li>
+        <li>Integrated OpenAI GPT-4 Vision, Groq fast inference, and local Whisper v3 audio transcription pipelines.</li>
+        <li>Designed automated reference video/audio call recording, speech synthesis, and ATS sync (Ashby API).</li>
+      </ul>
+      `,
+        role: `
+      Full Stack & AI Lead Developer <br/>
+      <ul>
+        <li>Architected the end-to-end verification engine and event-driven data aggregation pipeline.</li>
+        <li>Integrated AI LLM inference models, speech synthesis, and real-time database state syncing.</li>
+      </ul>
+      `,
+        techStack: [
+            'Next.js 15',
+            'FastAPI',
+            'TypeScript',
+            'Python',
+            'PostgreSQL',
+            'Supabase',
+            'Groq / LLaMA',
+            'OpenAI GPT-4',
+            'ElevenLabs',
+            'Zoom API',
+        ],
+        thumbnail: '/projects/thumbnail/hiresense.png',
+        longThumbnail: '/projects/long/hiresense.png',
+        images: [
+            '/projects/images/hiresense-1.png',
+        ],
+    },
+    {
         title: 'BlitzAI',
         slug: 'blitz-ai',
         liveUrl: 'https://github.com/Uchiha-byte/GooglexKaggle_Capstone_Project',
