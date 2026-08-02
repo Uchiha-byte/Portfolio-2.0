@@ -11,6 +11,7 @@ import Navbar from '@/components/Navbar';
 import CustomCursor from '@/components/CustomCursor';
 import Preloader from '../components/Preloader';
 import StickyEmail from './_components/StickyEmail';
+import AiAssistant from '@/components/AiAssistant';
 import { GoogleAnalytics } from '@next/third-parties/google';
 import Script from 'next/script';
 
@@ -79,6 +80,7 @@ export default function RootLayout({
                     <ScrollProgressIndicator />
                     <ParticleBackground />
                     <StickyEmail />
+                    <AiAssistant />
                 </ReactLenis>
             </body>
         </html>
