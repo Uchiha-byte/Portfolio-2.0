@@ -363,6 +363,11 @@ export const MY_EXPERIENCE = [
         duration: 'Jan 2025 - Mar 2025',
     },
     {
+        title: 'Google × Kaggle Multi-Agent Competition',
+        company: 'Competition',
+        duration: '2024',
+    },
+    {
         title: 'AI Powered Smart Vehicle Services System',
         company: 'Project',
         duration: 'Nov 2024 - Feb 2025',
@@ -373,6 +378,21 @@ export const MY_EXPERIENCE = [
         duration: 'Jan 2024 - July 2024',
     },
 ];
+export const MY_PUBLICATIONS = [
+    {
+        title: 'A Comprehensive Framework for Detecting Hallucinations in Large Language Models Using Multi-Layer Validation',
+        pdfUrl: '/papers/hallucination-detection-paper.pdf',
+    },
+    {
+        title: 'MedNexus: Advanced Disease Diagnosis with ML and AI',
+        pdfUrl: '/papers/mednexus-paper.pdf',
+    },
+    {
+        title: 'HireSense: AI-Powered Verification & Interview Engine for Authentic Hiring Decisions',
+        pdfUrl: '/papers/hiresense-paper.pdf',
+    },
+];
+
 export const MY_CERTIFICATES = [
     {
         title: 'Technical Support Fundamentals',
