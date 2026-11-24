@@ -13,6 +13,7 @@ const COLORS = [
     'bg-indigo-500 text-white',
     'bg-purple-500 text-white',
     'bg-emerald-500 text-white',
+    'bg-rose-500 text-white',
 ];
 
 const MENU_LINKS = [
@@ -31,6 +32,10 @@ const MENU_LINKS = [
     {
         name: 'Certificates',
         url: '/#certificates',
+    },
+    {
+        name: 'Publications',
+        url: '/#publications',
     },
     {
         name: 'Projects',
